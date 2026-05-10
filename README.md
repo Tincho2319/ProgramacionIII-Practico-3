@@ -10,7 +10,7 @@
 - [@nicc-essp](https://github.com/nicc-essp) - Nicolas Espulef
 - [@HomeroColomboArg](https://github.com/HomeroColomboArg) - Homero Colombo
 
-## Metodologia de Trabajo
+## Metodologia de Trabajo 🛠️
 
 Para mantener el repositorio organizado entre los seis, utilizamos la estrategia de ramificación **Git Flow** y los **estandares de contribución** detallados más abajo.
 
@@ -55,9 +55,9 @@ Para mantener el repositorio organizado entre los seis, utilizamos la estrategia
 * Documentacion: [@fedeheinrich](https://github.com/fedeheinrich)
 * Lo demas a definir
 
-## Funciones JS
+## Funciones JS ⚡
 
-## Estructura de archivos JSON
+## Estructura de archivos JSON ⚙️
 
 ## Deploys 🚀
 | Componente | Servicio | URL |
