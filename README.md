@@ -30,10 +30,10 @@ Para mantener el repositorio organizado entre los seis, utilizamos la estrategia
 
 ### Estandares de contribución
 
-**Commits**: Utilizar titulos descriptivos con el formato `tipo: descripción`. 
-*Ejemplo: `feat: implementación de login` o `fix: corrección de ruta API`.
+- **Commits**: Utilizar titulos descriptivos con el formato `tipo: descripción`. 
+    > Ejemplo: `feat: implementación de login` o `fix: corrección de ruta API`.
 
-**Revisiones de Pull Requests (PR)**: Al menos un compañero de equipo debe revisar una solicitud de incorporacion de cambios antes de fusionarla (merge) con develop.
+- **Revisiones de Pull Requests (PR)**: Al menos un compañero de equipo debe revisar una solicitud de incorporacion de cambios antes de fusionarla (merge) con develop.
 
 ## Estructura del Proyecto 📂
     ProgramacionIII-Practico-3/  
