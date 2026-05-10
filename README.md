@@ -2,7 +2,7 @@
 
 ## Impuls*API* - Descripción
 
-## 👥 Integrantes - Grupo 19 
+## Integrantes - Grupo 19 👥
 - [@fedeheinrich](https://github.com/fedeheinrich) - Federico Heinrich
 - [@Tincho2319](https://github.com/Tincho2319) - Martin Alcaraz
 - [@Nahuelete](https://github.com/Nahuelete) - Nahuel Cappa
