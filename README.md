@@ -52,8 +52,17 @@ Para mantener el repositorio organizado entre los seis, utilizamos la estrategia
     └── README.md                # Documentacion general para consumidores de la API
 
 ## División de Archivos 🗂️
-* Documentacion: [@fedeheinrich](https://github.com/fedeheinrich)
-* Lo demas a definir
+
+A continuación, se detalla la responsabilidad de cada integrante sobre los archivos del repositorio:
+
+| Responsable | Archivos y Carpetas Principales | Funcionalidad / Módulo |
+| :--- | :--- | :--- |
+| **Martin Alcaraz** | `app.js`, `server.js`, `models/`, `data/usuarios.json` | Inicialización, deploy de la API y backend de perfil. |
+| **Federico Heinrich** | `README.md`, `ROADMAP.md`, `pages/perfil.html` | Documentación técnica y frontend de perfil de usuario. |
+| **Matias Oviedo** | `data/servicios.json`, `pages/servicios.html` | Gestión y visualización del listado completo de servicios. |
+| **Nahuel Cappa** | `controllers/serviciosController.js`, `js/buscador.js` | Detalle de servicios y lógica de filtrado/búsqueda. |
+| **Homero Colombo** | `data/equipo.json`, `pages/equipo.html` | Backend y frontend del equipo + deploy en GitHub Pages. |
+| **Nicolas Espulef** | `pages/login.html`, `controllers/loginController.js` | Sistema de login, efectos de carga (spinners) y logs. |
 
 ## Funciones JS ⚡
 
