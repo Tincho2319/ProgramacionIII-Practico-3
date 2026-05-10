@@ -2,7 +2,7 @@
 
 ## Impuls*API* - Descripción
 
-## Integrantes - Grupo 19 👥
+## 👥 Integrantes - Grupo 19
 - [@fedeheinrich](https://github.com/fedeheinrich) - Federico Heinrich
 - [@Tincho2319](https://github.com/Tincho2319) - Martin Alcaraz
 - [@Nahuelete](https://github.com/Nahuelete) - Nahuel Cappa
@@ -10,7 +10,7 @@
 - [@nicc-essp](https://github.com/nicc-essp) - Nicolas Espulef
 - [@HomeroColomboArg](https://github.com/HomeroColomboArg) - Homero Colombo
 
-## Metodologia de Trabajo 🛠️
+## 🛠️ Metodologia de Trabajo
 
 Para mantener el repositorio organizado entre los seis, utilizamos la estrategia de ramificación **Git Flow** y los **estandares de contribución** detallados más abajo.
 
@@ -35,7 +35,7 @@ Para mantener el repositorio organizado entre los seis, utilizamos la estrategia
 
 - **Revisiones de Pull Requests (PR)**: Al menos un compañero de equipo debe revisar una solicitud de incorporacion de cambios antes de fusionarla (merge) con develop.
 
-## Estructura del Proyecto 📂
+## 📂 Estructura del Proyecto
     ProgramacionIII-Practico-3/  
     │── app.js                  # Punto de entrada de la aplicación
     ├── package-lock.json                    
@@ -51,7 +51,7 @@ Para mantener el repositorio organizado entre los seis, utilizamos la estrategia
     │   └── serviciosRoutes.js               
     └── README.md                # Documentacion general para consumidores de la API
 
-## División de Archivos 🗂️
+## 🗂️ División de Archivos
 
 A continuación, se detalla la responsabilidad de cada integrante sobre los archivos del repositorio:
 
@@ -64,11 +64,11 @@ A continuación, se detalla la responsabilidad de cada integrante sobre los arch
 | **Homero Colombo** | `data/equipo.json`, `pages/equipo.html` | Backend y frontend del equipo + deploy en GitHub Pages. |
 | **Nicolas Espulef** | `pages/login.html`, `controllers/loginController.js` | Sistema de login, efectos de carga (spinners) y logs. |
 
-## Funciones JS ⚡
+## ⚡ Funciones JS
 
-## Estructura de archivos JSON ⚙️
+## ⚙️ Estructura de archivos JSON
 
-## Deploys 🚀
+## 🚀 Deploys
 | Componente | Servicio | URL |
 | :--- | :--- | :--- |
 | **Frontend** | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white) | [Ver Sitio](https://tincho2319.github.io/ProgramacionIII-Practico-1/) |
