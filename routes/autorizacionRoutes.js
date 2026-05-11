@@ -1,9 +1,10 @@
 const { Router } = require('express');
-const { login } = require('../controllers/autorizacionController'); // Importa la función desde tu archivo real
+// IMPORTAMOS la función desde el controlador para manejar la lógica del login
+const { login } = require('../controllers/autorizacionController');
 
 const router = Router();
 
-// Define el camino para el POST
+// El servidor "escucha" un POST en la ruta /login y ejecuta la función importada
 router.post('/login', login); 
 
 module.exports = router;

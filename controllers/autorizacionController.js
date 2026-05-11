@@ -1,9 +1,6 @@
 /*Se declaran las variables fs(File System) y path(Ruta) para simular el logueo de un usuario que se creo en ..data/usuarios.json*/ 
 const fs = require('fs');
 const path = require('path');
-const { Router } = require('express');
-const { login } = require('../controllers/autorizacionController');
-const router = Router();
 
 const login = (req, res) => {
     const { email, password } = req.body;
