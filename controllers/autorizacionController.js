@@ -23,8 +23,4 @@ const login = (req, res) => {
     }
 };
 
-
-// El servidor "escucha" un POST en la ruta /login y ejecuta la función login cuando se recibe una solicitud en esa ruta.
-router.post('/login', login); 
-
-module.exports = router;
+module.exports = { login };
