@@ -1,6 +1,10 @@
 # Programación III TP N°3 - API REST
 
-## Impuls*API* - Descripción
+## 🚀 Impuls*API* - Descripción
+
+**ImpulsAPI** es una API RESTful desarrollada con **Node.js** y **Express** para el Trabajo Práctico N°3 de la materia Programación III. Su objetivo es proporcionar un backend robusto y estructurado capaz de gestionar información clave de una plataforma web, incluyendo perfiles de usuario, un catálogo de servicios, datos del equipo de desarrollo y un sistema de autenticación básico.
+
+El proyecto implementa una arquitectura modular separando rutas, controladores y modelos, y utiliza archivos JSON estáticos para simular la persistencia de datos. Diseñada para integrarse de forma asíncrona con un Front-end dinámico, la API permite aplicar las mejores prácticas de desarrollo backend, manejo de errores con try/catch y la distribución eficiente del trabajo en equipo.
 
 ## 👥 Integrantes - Grupo 19
 - [@fedeheinrich](https://github.com/fedeheinrich) - Federico Heinrich
