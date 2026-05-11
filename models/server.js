@@ -18,7 +18,7 @@ class Server {
 
   rutas() {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
-    this.app.use('/login', require('../routes/autorizacionRoutes'))
+    this.app.use('/auth', require('../routes/autorizacionRoutes'))
 
     // manejo de errores
     this.app.use((req, res, next) => {
