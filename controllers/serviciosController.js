@@ -1,41 +1,41 @@
-const { get } = require('http')
-
-const fs = require('fs').promises
+const fs = require('fs').promises;
+const path = require('path');
 
 const getServicios = async (req, res) => {
   try {
-    const data = await fs.readFile('./data/servicios.json', 'utf8')
-    const servicios = JSON.parse(data)
+    const pathArchivo = path.join(__dirname, '../data/servicios.json');
+    const data = await fs.readFile(pathArchivo, 'utf8');
+    const servicios = JSON.parse(data);
 
-    return res.status(200).json(servicios)
+    return res.status(200).json(servicios);
   } catch (error) {
-    console.log(error)
+    console.log(error);
     return res
       .status(500)
-      .json({ error: 'No se puedieron obtener los servicios' })
+      .json({ error: 'No se pudieron obtener los servicios' });
   }
 }
 
 const getServiciosById = async (req, res) => {
   try {
-    const data = await fs.readFile('./data/servicios.json', 'utf8')
-    const servicios = JSON.parse(data)
+    const pathArchivo = path.join(__dirname, '../data/servicios.json');
+    const data = await fs.readFile(pathArchivo, 'utf8');
+    const servicios = JSON.parse(data);
 
-    const { id } = req.params
-
-    const servicioId = servicios.find((s) => s.id === parseInt(id))
+    const { id } = req.params;
+    const servicioId = servicios.find((s) => s.id === parseInt(id));
 
     if (!servicioId) {
-      return res.status(404).json({ msg: `No existe el servicio con id ${id}` })
+      return res.status(404).json({ msg: `No existe el servicio con id ${id}` });
     }
 
-    return res.status(200).json(servicioId)
+    return res.status(200).json(servicioId);
   } catch (error) {
-    console.log(error)
-    return res.status(500).JSON({
-      error: `No se pudo obtener el datalle del servicio del id n° {id}`
-    })
+    console.log(error);
+    return res.status(500).json({
+      error: `No se pudo obtener el detalle del servicio del id n° ${id}`
+    });
   }
 }
 
-module.exports = { getServicios, getServiciosById }
+module.exports = { getServicios, getServiciosById };
