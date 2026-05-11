@@ -1,0 +1,16 @@
+[
+    { "id": 1, "desc": "Desarrollo Web", "precio": 5000 },
+    { "id": 2, "desc": "Desarrollo Movil", "precio": 8000 },
+    { "id": 3, "desc": "Soluciones Cloud", "precio": 6000 },
+    { "id": 4, "desc": "Sofware a medida", "precio": 7000 },
+    { "id": 5, "desc": "Bases de datos", "precio": 3500 },
+    { "id": 6, "desc": "Seguridad y auditorias", "precio": 2500 },
+    { "id": 7, "desc": "Consultoria IT", "precio": 4500 },
+    { "id": 8, "desc": "Testing", "precio": 3000 },
+    { "id": 9, "desc": "Actualizaciones de sistemas", "precio": 7500 },
+    { "id": 10, "desc": "Servicios de Inteligencia Artificial", "precio": 9500 },
+    { "id": 11, "desc": "Analisis y solucion de bugs", "precio": 8500 },
+    { "id": 12, "desc": "Mantenimiento de sistemas", "precio": 2800 },
+    { "id": 13, "desc": "Diseño UX/UI", "precio": 4000 },
+    { "id": 14, "desc": "Automatizacion de procesos", "precio": 5200 }
+]
