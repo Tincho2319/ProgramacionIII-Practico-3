@@ -18,6 +18,7 @@ class Server {
 
   rutas() {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
+    this.app.use('/login', require('../routes/autorizacionRoutes'))
 
     // manejo de errores
     this.app.use((req, res, next) => {
@@ -31,9 +32,7 @@ class Server {
       console.error(err.stack)
       return res.status(500).json({ msg: 'Internal Server Error' })
     })
-    this.app.use('/servicios', require('../routes/serviciosRoutes'))
     
-    this.app.use('/login', require('../routes/autorizacionRoutes'))
 
   }
 
