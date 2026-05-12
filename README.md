@@ -62,11 +62,11 @@ A continuación, se detalla la responsabilidad de cada integrante sobre los arch
 | Responsable | Archivos y Carpetas Principales | Funcionalidad / Módulo |
 | :--- | :--- | :--- |
 | **Martin Alcaraz** | `app.js`, `server.js`, `models/`, `data/usuarios.json` | Inicialización, deploy de la API y backend de perfil. |
-| **Federico Heinrich** | `README.md`, `ROADMAP.md`, `pages/perfil.html` | Documentación técnica y frontend de perfil de usuario. |
-| **Matias Oviedo** | `data/servicios.json`, `pages/servicios.html` | Gestión y visualización del listado completo de servicios. |
+| **Federico Heinrich** | `README.md`, `ROADMAP.md`, `pages/perfil.html`, `css/perfil.css` | Documentación técnica y frontend de perfil de usuario. |
+| **Matias Oviedo** | `data/servicios.json`, `pages/servicios.html`, `css/servicios.css` | Gestión y visualización del listado completo de servicios. |
 | **Nahuel Cappa** | `controllers/serviciosController.js`, `js/buscador.js` | Detalle de servicios y lógica de filtrado/búsqueda. |
-| **Homero Colombo** | `data/equipo.json`, `pages/equipo.html` | Backend y frontend del equipo + deploy en GitHub Pages. |
-| **Nicolas Espulef** | `pages/login.html`, `controllers/loginController.js` | Sistema de login, efectos de carga (spinners) y logs. |
+| **Homero Colombo** | `data/equipo.json`, `pages/equipo.html`, `css/equipo.css` | Backend y frontend del equipo + deploy en GitHub Pages. |
+| **Nicolas Espulef** | `pages/login.html`, `css/login.css`, `controllers/loginController.js` | Sistema de login, efectos de carga (spinners) y logs. |
 
 ## ⚡ Funciones JS
 
@@ -75,5 +75,5 @@ A continuación, se detalla la responsabilidad de cada integrante sobre los arch
 ## 🚀 Deploys
 | Componente | Servicio | URL |
 | :--- | :--- | :--- |
-| **Frontend** | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white) | [Ver Sitio]() |
+| **Frontend** | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white) | [Ver Sitio](https://oviedo-matias.github.io/ProgramacionIII-Practico-3-Fork-1/) |
 | **API / Backend** | ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white) | [Ver Sitio](https://impulsar-webapi-64jf.onrender.com) |
