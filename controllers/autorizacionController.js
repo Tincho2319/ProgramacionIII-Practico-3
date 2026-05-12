@@ -1,15 +1,13 @@
 /*Se declaran las variables fs(File System) y path(Ruta) para simular el logueo de un usuario que se creo en ..data/usuarios.json*/ 
 const fs = require('fs');
 const path = require('path');
-const { Router } = require('express');
-const { login } = require('../controllers/autorizacionController');
-const router = Router();
 
 const login = (req, res) => {
     const { email, password } = req.body;
     
+    const usuariosPath = path.join(__dirname, '../data/usuarios.json');
     // Leemos el archivo JSON
-    const usuarios = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/usuarios.json'), 'utf-8'));
+    const usuarios = JSON.parse(fs.readFileSync(usuariosPath, 'utf-8'));
 
     // Buscamos si existe el usuario y coincide la contraseña
     const usuarioValido = usuarios.find(u => u.email === email && u.password === password);
@@ -26,8 +24,4 @@ const login = (req, res) => {
     }
 };
 
-
-// El servidor "escucha" un POST en la ruta /login y ejecuta la función login cuando se recibe una solicitud en esa ruta.
-router.post('/login', login); 
-
-module.exports = router;
+module.exports = { login };
