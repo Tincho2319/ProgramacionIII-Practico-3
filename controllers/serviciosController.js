@@ -12,13 +12,13 @@ const getServicios = async (req, res) => {
     console.log(error)
     return res
       .status(500)
-      .json({ error: 'No se puedieron obtener los servicios' })
+      .json({ error: 'No se pudieron obtener los servicios' })
   }
 }
 
 const getServiciosById = async (req, res) => {
   try {
-    const data = await fs.readFile('./data/servicios.json', 'utf8')
+    const data = await fs.readFile('./data/serviciosDetalle.json', 'utf8')
     const servicios = JSON.parse(data)
 
     const { id } = req.params

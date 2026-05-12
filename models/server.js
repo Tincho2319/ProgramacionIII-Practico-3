@@ -29,6 +29,10 @@ class Server {
       console.error(err.stack)
       return res.status(500).json({ msg: 'Internal Server Error' })
     })
+    this.app.use('/servicios', require('../routes/serviciosRoutes'))
+    
+    this.app.use('/login', require('../routes/autorizacionRoutes'))
+
   }
 
   listen() {

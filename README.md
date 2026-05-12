@@ -75,5 +75,5 @@ A continuación, se detalla la responsabilidad de cada integrante sobre los arch
 ## 🚀 Deploys
 | Componente | Servicio | URL |
 | :--- | :--- | :--- |
-| **Frontend** | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white) | [Ver Sitio](https://tincho2319.github.io/ProgramacionIII-Practico-1/) |
-| **API / Backend** | ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white) | [Ver Sitio]() |
+| **Frontend** | ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white) | [Ver Sitio](https://oviedo-matias.github.io/ProgramacionIII-Practico-3-Fork-1/) |
+| **API / Backend** | ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white) | [Ver Sitio](https://impulsar-webapi-64jf.onrender.com) |
