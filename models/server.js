@@ -16,7 +16,10 @@ class Server {
 
   rutas() {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
+    this.app.use('/auth', require('../routes/autorizacionRoutes'));
 
+    // Nueva ruta para el perfil
+    this.app.use('/perfil', require('../routes/perfilRoutes'));
     // manejo de errores
     this.app.use((req, res, next) => {
       return res.status(400).json({ msg: 'Error.' })
