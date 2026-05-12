@@ -19,7 +19,7 @@ class Server {
   rutas() {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
     this.app.use('/auth', require('../routes/autorizacionRoutes'));
-    this.app.use('/auth', require('../routes/autorizacionRoutes'))
+
 
     // Nueva ruta para el perfil
     this.app.use('/perfil', require('../routes/perfilRoutes'));

@@ -13,19 +13,16 @@ const getServicios = async (req, res) => {
     return res
       .status(500)
       .json({ error: 'No se pudieron obtener los servicios' });
-      .json({ error: 'No se pudieron obtener los servicios' })
   }
 }
 
 const getServiciosById = async (req, res) => {
   try {
     const pathArchivo = path.join(__dirname, '../data/servicios.json');
-    const data = await fs.readFile(pathArchivo, 'utf8');
-    const servicios = JSON.parse(data);
-    const data = await fs.readFile('./data/serviciosDetalle.json', 'utf8')
-    const servicios = JSON.parse(data)
-
-    const { id } = req.params
+    const dataServicios = await fs.readFile(pathArchivo, 'utf8');
+    const servicios = JSON.parse(dataServicios);
+    const dataDetalle = await fs.readFile('./data/serviciosDetalle.json', 'utf8')
+    const serviciosDetalle = JSON.parse(dataDetalle)
 
     const { id } = req.params;
     const servicioId = servicios.find((s) => s.id === parseInt(id));
