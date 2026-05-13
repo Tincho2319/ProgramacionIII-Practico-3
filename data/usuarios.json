@@ -1,6 +1,14 @@
-[{
+[
+  {
     "id": 1,
-    "email": "user@user.com", 
-    "password": "123ABC", 
+    "email": "user@user.com",
+    "password": "123ABC",
     "nombre": "Pepe Argento"
-}]
+  },
+  {
+    "id": 2,
+    "email": "coso@coso.com",
+    "password": "coso123",
+    "nombre": "jesús"
+  }
+]
