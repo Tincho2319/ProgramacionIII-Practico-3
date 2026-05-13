@@ -1,32 +1,24 @@
-const fs = require('fs').promises;
+const fs = require('fs/promises');
 const path = require('path');
 
-/** Función para obtener el perfil de un usuario por su ID.
- * Lee el archivo JSON de usuarios, busca el usuario por su ID y devuelve sus datos (sin la contraseña).
- * Si no se encuentra el usuario, devuelve un mensaje de error.
- */
-const obtenerPerfilPorId = async (req, res) => {
+const getPerfilById = async (req, res) => {
     try {
-        const { id } = req.params; // Obtenemos el ID de la URL
-        const pathArchivo = path.join(__dirname, '../data/usuarios.json');
-        const data = await fs.readFile(pathArchivo, 'utf8');
+        const ruta = path.join(__dirname, '../data/usuarios.json');
+        const data = await fs.readFile(ruta, 'utf-8');
         const usuarios = JSON.parse(data);
 
-        // Buscamos al usuario comparando el ID (convertimos el ID a número)
+        const { id } = req.params;
         const usuarioEncontrado = usuarios.find(u => u.id === parseInt(id));
 
         if (!usuarioEncontrado) {
-            return res.status(404).json({ msg: `No existe un usuario con el id ${id}` });
+            return res.status(404).json({ msg: "Usuario no encontrado" });
         }
 
-        // Devolvemos los datos (sin el password por seguridad)
-        const { password, ...datosPublicos } = usuarioEncontrado;
-        return res.status(200).json(datosPublicos);
-
+        res.status(200).json(usuarioEncontrado);
     } catch (error) {
-        console.error(error);
-        return res.status(500).json({ msg: "Error interno al buscar el perfil" });
+        console.log("Error en el back de perfil: ", error);
+        res.status(500).json({ msg: "Error interno del servidor" });
     }
 };
 
-module.exports = { obtenerPerfilPorId };
+module.exports = { getPerfilById };
