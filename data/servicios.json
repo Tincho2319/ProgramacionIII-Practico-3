@@ -1,16 +1,86 @@
 [
-    { "id": 1, "desc": "Desarrollo Web", "precio": 5000 },
-    { "id": 2, "desc": "Desarrollo Movil", "precio": 8000 },
-    { "id": 3, "desc": "Soluciones Cloud", "precio": 6000 },
-    { "id": 4, "desc": "Sofware a medida", "precio": 7000 },
-    { "id": 5, "desc": "Bases de datos", "precio": 3500 },
-    { "id": 6, "desc": "Seguridad y auditorias", "precio": 2500 },
-    { "id": 7, "desc": "Consultoria IT", "precio": 4500 },
-    { "id": 8, "desc": "Testing", "precio": 3000 },
-    { "id": 9, "desc": "Actualizaciones de sistemas", "precio": 7500 },
-    { "id": 10, "desc": "Servicios de Inteligencia Artificial", "precio": 9500 },
-    { "id": 11, "desc": "Analisis y solucion de bugs", "precio": 8500 },
-    { "id": 12, "desc": "Mantenimiento de sistemas", "precio": 2800 },
-    { "id": 13, "desc": "Diseño UX/UI", "precio": 4000 },
-    { "id": 14, "desc": "Automatizacion de procesos", "precio": 5200 }
+    {
+        "id": 1,
+        "nombre": "Desarrollo Web",
+        "desc": "Creacion y mantenimiento de sitios y aplicaciones web modernas.",
+        "precio": 5000
+    },
+    {
+        "id": 2,
+        "nombre": "Desarrollo Movil",
+        "desc": "Desarrollo de aplicaciones moviles para Android y iOS.",
+        "precio": 8000
+    },
+    {
+        "id": 3,
+        "nombre": "Soluciones Cloud",
+        "desc": "Implementacion y administracion de infraestructura en la nube.",
+        "precio": 6000
+    },
+    {
+        "id": 4,
+        "nombre": "Sofware a medida",
+        "desc": "Desarrollo de software personalizado segun necesidades del cliente.",
+        "precio": 7000
+    },
+    {
+        "id": 5,
+        "nombre": "Bases de datos",
+        "desc": "Diseño, optimizacion y administracion de bases de datos.",
+        "precio": 3500
+    },
+    {
+        "id": 6,
+        "nombre": "Seguridad y auditorias",
+        "desc": "Evaluacion de seguridad y auditorias de sistemas informaticos.",
+        "precio": 2500
+    },
+    {
+        "id": 7,
+        "nombre": "Consultoria IT",
+        "desc": "Asesoramiento tecnico y estrategico en tecnologia.",
+        "precio": 4500
+    },
+    {
+        "id": 8,
+        "nombre": "Testing",
+        "desc": "Pruebas de calidad y validacion de aplicaciones y sistemas.",
+        "precio": 3000
+    },
+    {
+        "id": 9,
+        "nombre": "Actualizaciones de sistemas",
+        "desc": "Actualizacion y mejora de sistemas existentes.",
+        "precio": 7500
+    },
+    {
+        "id": 10,
+        "nombre": "Servicios de Inteligencia Artificial",
+        "desc": "Implementacion de soluciones basadas en inteligencia artificial.",
+        "precio": 9500
+    },
+    {
+        "id": 11,
+        "nombre": "Analisis y solucion de bugs",
+        "desc": "Deteccion y correccion de errores en software.",
+        "precio": 8500
+    },
+    {
+        "id": 12,
+        "nombre": "Mantenimiento de sistemas",
+        "desc": "Soporte tecnico y mantenimiento preventivo de sistemas.",
+        "precio": 2800
+    },
+    {
+        "id": 13,
+        "nombre": "Diseño UX/UI",
+        "desc": "Diseño de interfaces y experiencia de usuario para aplicaciones.",
+        "precio": 4000
+    },
+    {
+        "id": 14,
+        "nombre": "Automatizacion de procesos",
+        "desc": "Automatizacion de tareas y procesos empresariales.",
+        "precio": 5200
+    }
 ]
