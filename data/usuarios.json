@@ -1,19 +1,6 @@
 [
   {
     "id": 1,
-<<<<<<< HEAD
-    "email": "user@user.com",
-    "password": "123ABC",
-    "nombre": "Pepe Argento"
-  },
-  {
-    "id": 2,
-    "email": "coso@coso.com",
-    "password": "coso123",
-    "nombre": "jesús"
-  }
-]
-=======
     "nombre": "Pepe Argento",
     "email": "pepeargento@ejemplo.com",
     "password": "123",
@@ -36,6 +23,11 @@
         "estado": "Pendiente de pago"
       }
     ]
+  },
+  {
+    "id": 2,
+    "email": "coso@coso.com",
+    "password": "jesus12345",
+    "nombre": "jesus"
   }
 ]
->>>>>>> 7b54ec4f112d052641eed7aabdf5eee560aa9f06
