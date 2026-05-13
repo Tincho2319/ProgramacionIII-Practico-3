@@ -12,32 +12,29 @@ class Server {
 
   middleware() {
     this.app.use(cors())
+    this.app.use(express.json())
   }
 
   rutas() {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
+    this.app.use('/login', require('../routes/autorizacionRoutes'))
+    this.app.use('/equipo', require('../routes/equipoRoutes'))
 
-    // manejo de errores
+    // manejo de rutas inexistentes
     this.app.use((req, res, next) => {
-      return res.status(400).json({ msg: 'Error.' })
+      return res.status(404).json({ msg: 'Ruta no encontrada' })
     })
-    this.app.use((err, req, res, next) => {
-      console.error(err.stack)
-      return res.status(404).json({ msg: 'Error. Pagina no encontrada' })
-    })
+
+    // manejo de errores internos
     this.app.use((err, req, res, next) => {
       console.error(err.stack)
       return res.status(500).json({ msg: 'Internal Server Error' })
     })
-    this.app.use('/servicios', require('../routes/serviciosRoutes'))
-    
-    this.app.use('/login', require('../routes/autorizacionRoutes'))
-
   }
 
   listen() {
     this.app.listen(this.port, () => {
-      console.log(`La API esta escuchando el el puerto: ${this.port}`)
+      console.log(`La API esta escuchando en el puerto: ${this.port}`)
     })
   }
 }

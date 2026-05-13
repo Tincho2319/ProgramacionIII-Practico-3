@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Federico Heinrich",
+    "rol": "Documentación y frontend de perfil",
+    "descripcion": "Encargado del README, roadmap y vistas de perfil, registro y login.",
+    "github": "https://github.com/fedeheinrich",
+    "imagen": "https://avatars.githubusercontent.com/u/9919?v=4"
+  },
+  {
+    "id": 2,
+    "nombre": "Martin Alcaraz",
+    "rol": "Inicialización, deploy y backend de perfil",
+    "descripcion": "Encargado de la configuración general, deploy y scripts principales.",
+    "github": "https://github.com/Tincho2319",
+    "imagen": "https://avatars.githubusercontent.com/u/9919?v=4"
+  },
+  {
+    "id": 3,
+    "nombre": "Nahuel Cappa",
+    "rol": "Detalle de servicios y buscador",
+    "descripcion": "Encargado del detalle de servicios y lógica de búsqueda.",
+    "github": "https://github.com/Nahuelete",
+    "imagen": "https://avatars.githubusercontent.com/u/9919?v=4"
+  },
+  {
+    "id": 4,
+    "nombre": "Matias Oviedo",
+    "rol": "Listado de servicios",
+    "descripcion": "Encargado de la gestión y visualización del listado completo de servicios.",
+    "github": "https://github.com/Oviedo-Matias",
+    "imagen": "https://avatars.githubusercontent.com/u/9919?v=4"
+  },
+  {
+    "id": 5,
+    "nombre": "Nicolas Espulef",
+    "rol": "Login y experiencia de usuario",
+    "descripcion": "Encargado del sistema de login, spinners y logs.",
+    "github": "https://github.com/nicc-essp",
+    "imagen": "https://avatars.githubusercontent.com/u/9919?v=4"
+  },
+  {
+    "id": 6,
+    "nombre": "Homero Colombo",
+    "rol": "Backend y frontend de equipo",
+    "descripcion": "Encargado del JSON, endpoint y vista dinámica de la sección equipo.",
+    "github": "https://github.com/HomeroColomboArg",
+    "imagen": "https://avatars.githubusercontent.com/u/9919?v=4"
+  }
+]
