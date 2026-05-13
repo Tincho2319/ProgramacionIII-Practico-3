@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+<<<<<<< HEAD
     "email": "user@user.com",
     "password": "123ABC",
     "nombre": "Pepe Argento"
@@ -12,3 +13,29 @@
     "nombre": "jesús"
   }
 ]
+=======
+    "nombre": "Pepe Argento",
+    "email": "pepeargento@ejemplo.com",
+    "password": "123",
+    "fechaRegistro": "Miembro desde el 26 de mayo de 2024",
+    "imagen": "../assets/img/perfil-placeholder.png",
+    "pedidos": [
+      {
+        "titulo": "Desarrollo de App Mobile",
+        "imagen": "../assets/img/servicios_img/img_desarrollo_mobile.jpg",
+        "estado": "Entregado el 10/04/2026"
+      },
+      {
+        "titulo": "Auditoría de Seguridad",
+        "imagen": "../assets/img/servicios_img/img_seguridad_auditorias.jpg",
+        "estado": "En proceso"
+      },
+      {
+        "titulo": "Migración a Cloud",
+        "imagen": "../assets/img/servicios_img/img_soluciones_cloud.jpg",
+        "estado": "Pendiente de pago"
+      }
+    ]
+  }
+]
+>>>>>>> 7b54ec4f112d052641eed7aabdf5eee560aa9f06
