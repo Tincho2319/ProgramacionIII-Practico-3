@@ -1,8 +1,9 @@
 const { Router } = require('express');
-const { obtenerPerfilPorId } = require('../controllers/perfilController');
+const { getPerfilById } = require('../controllers/perfilController');
+
 const router = Router();
 
-// Definimos la ruta con el parámetro :id
-router.get('/:id', obtenerPerfilPorId);
+// Esta es la ruta que tu perfil.js llamará: /perfil/1
+router.get('/:id', getPerfilById);
 
 module.exports = router;

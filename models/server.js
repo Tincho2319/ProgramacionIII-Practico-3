@@ -19,6 +19,8 @@ class Server {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
     this.app.use('/login', require('../routes/autorizacionRoutes'))
     this.app.use('/equipo', require('../routes/equipoRoutes'))
+    this.app.use('/perfil', require('../routes/perfilRoutes'));
+    this.app.use('/registro', require('../routes/registroRoutes'))
 
     // manejo de rutas inexistentes
     this.app.use((req, res, next) => {
